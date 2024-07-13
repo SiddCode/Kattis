@@ -1,19 +1,6 @@
 u = int(input())
-
-k = False
-n = False
-
-
-for i in range(u):
-    a = input()
-    if a == 'kjuklingur':
-        k = True
-    else:
-        n = True
-
-if k and n:
+if u == 2: 
+    for i in range(u): 
+        input()
     print('blandad best')
-elif k:
-    print('kjuklingur')
-else:
-    print('nautakjot')
+else: print(input())
