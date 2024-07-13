@@ -1,3 +1,4 @@
 u = input()
 n = int(input())
-print(u[0:n])
+for i in range(n):
+    print(u, end='')
